@@ -1,17 +1,18 @@
+//basic concept of functions in c++
 #include <iostream>
 using namespace std;
-// function defination
-int add(int a, int b)
-{
-int c=a+b;
+// now we will make a function
+int add (int x, int y) { 
+int c=x+y;         //no function prototype needed to make here
 return c;
 }
-    int main ()  {
-    int x,y;
-        cout<<"enter 1st number"<<endl;
-        cin>>x;
-        cout<<"enter 2nd number"<<endl;
-        cin>>y;
-        cout<<"sum is "<<add(x,y); //function calling
-    
+int main ()  {   //main function starts
+    int a,b;
+    cout<<"enter a="<<endl;
+    cin>>a;
+    cout<<"enter b="<<endl;
+    cin>>b;
+    cout<<"sum is= "<<add (a,b)<<endl;
+    cout <<"Program ends successfullyyy!!"<<endl;
+return 0;
 }
