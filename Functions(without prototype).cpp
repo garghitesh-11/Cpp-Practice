@@ -3,7 +3,7 @@
 using namespace std;
 // now we will make a function
 int add (int x, int y) { 
-int c=x+y;         //no function prototype needed to make here
+int c=x+y;         //no function prototype needed to make here, we already defined the function here
 return c;
 }
 int main ()  {   //main function starts
